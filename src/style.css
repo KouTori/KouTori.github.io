@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("./field.png");
+}
+
+header{
+    margin-top: 28px;
+    width: 100%;
+    text-align: center;
+    background:linear-gradient(to bottom right,rgb(232, 55, 55), rgb(52, 52, 231));
+    color: white;
+}
+
+#content{
+    text-align: center;
+}
+
+#teams{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.team{
+    width: 49.5%;
+    max-width: 450px;
+}
+
+.blue{
+    background-color: rgb(68, 68, 221);
+    border-left: 5px rgb(31, 220, 220) solid;
+}
+.red{
+    background-color: rgb(221, 68, 68);
+    border-left: 5px rgb(244, 100, 172) solid;
+}
+.none{
+    background-color: yellowgreen;
+    border-left: 5px rgb(255, 255, 255) solid;
+}
+.player{
+    color: white;
+    font-weight: bold;
+    height: 65px;
+    display: flex;
+    font-size: smaller;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    padding-right: 5px;
+    border-radius: 7px;
+    margin-bottom: 7px;
+}
+.player_nameCon{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    margin-right: 5px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.player_nameCon img{
+    height: 100%;
+}
+
+#schedule{
+    width: 100%;
+    background-color: rgb(138, 207, 138);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#participants_none{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
