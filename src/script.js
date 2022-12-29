@@ -1,16 +1,18 @@
 let data = {
     players : [
-        {"name":"たいこう","star":4,"team":"blue"},
-        {"name":"たつみ","star":3,"team":"red"},
-        {"name":"はるみち","star":1,"team":"none"},
-        {"name":"こうむら","star":2,"team":"none"},
-        {"name":"キム・ツヨシ","star":2,"team":"none"},
-        {"name":"ほり","star":0,"team":"none"},
-        {"name":"サカナ","star":2,"team":"none"},
-        {"name":"おっかー","star":3,"team":"none"},
-        {"name":"みっつー","star":5,"team":"none"},
-        {"name":"こーよ","star":4,"team":"none"},
-        {"name":"ゆーま","star":2,"team":"none"}
+        {"name":"たいこう","star":4,"team":"blue","schedule":{"1/3":"O","1/4":"O","1/5":"O"}},
+        {"name":"たつみ","star":3,"team":"red","schedule":{"1/3":"x","1/4":"?","1/5":"AM"}},
+        {"name":"はるみち","star":1,"team":"none","schedule":{"1/3":"O","1/4":"O","1/5":"O"}},
+        {"name":"こうむら","star":2,"team":"none","schedule":{"1/3":"O","1/4":"O","1/5":"O"}},
+        {"name":"キム・ツヨシ","star":2,"team":"none","schedule":{"1/3":"?","1/4":"?","1/5":"?"}},
+        {"name":"ほり","star":0,"team":"none","schedule":{"1/3":"O","1/4":"O","1/5":"▲"}},
+        {"name":"サカナ","star":2,"team":"none","schedule":{"1/3":"?","1/4":"?","1/5":"?"}},
+        {"name":"おっかー","star":3,"team":"none","schedule":{"1/3":"O","1/4":"O","1/5":"AM"}},
+        {"name":"みっつー","star":5,"team":"none","schedule":{"1/3":"x","1/4":"?","1/5":"?"}},
+        {"name":"こーよ","star":4,"team":"none","schedule":{"1/3":"?","1/4":"?","1/5":"?"}},
+        {"name":"ゆーま","star":2,"team":"none","schedule":{"1/3":"▲","1/4":"O","1/5":"O"}},
+        {"name":"ねっつん","star":3,"team":"none","schedule":{"1/3":"O","1/4":"x","1/5":"PM"}},
+        {"name":"じゅん","star":3,"team":"none","schedule":{"1/3":"?","1/4":"?","1/5":"?"}}
     ]
 }
 
