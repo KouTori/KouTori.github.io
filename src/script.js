@@ -3,7 +3,14 @@ let data = {
         {"name":"たいこう","star":4,"team":"blue"},
         {"name":"たつみ","star":3,"team":"red"},
         {"name":"はるみち","star":1,"team":"none"},
-        {"name":"こうむら","star":2,"team":"none"}
+        {"name":"こうむら","star":2,"team":"none"},
+        {"name":"キム・ツヨシ","star":2,"team":"none"},
+        {"name":"ほり","star":0,"team":"none"},
+        {"name":"サカナ","star":2,"team":"none"},
+        {"name":"おっかー","star":3,"team":"none"},
+        {"name":"みっつー","star":5,"team":"none"},
+        {"name":"こーよ","star":4,"team":"none"},
+        {"name":"ゆーま","star":2,"team":"none"}
     ]
 }
 
