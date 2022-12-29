@@ -55,4 +55,15 @@ function renderAllPlayers(){
     }
 }
 
+function renderSchedule(){
+    let table = document.createElement("table");
+    let target = document.getElementById("schedule");
+    target.appendChild(table);
+    table.innerHTML = '<tr><td>予定</td><td>1/3</td><td>1/4</td><td>1/5</td></tr>';
+    for(let pl of data.players){
+        table.innerHTML += '<tr><td>'+pl.name+'</td><td>'+pl.schedule["1/3"]+'</td><td>'+pl.schedule["1/4"]+'</td><td>'+pl.schedule["1/5"]+'</td></tr>';
+    }
+}
+
+renderSchedule();
 renderAllPlayers();

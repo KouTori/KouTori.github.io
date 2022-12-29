@@ -74,6 +74,8 @@ header{
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
+    max-height: 200px;
+    overflow-y: scroll;
 }
 
 #participants_none{
@@ -82,4 +84,13 @@ header{
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+}
+
+table{
+    border: 1px black solid;
+    width: 100%;
+}
+
+td{
+    padding: 5px;
 }
