@@ -10,9 +10,10 @@ let data = {
         {"name":"おっかー","star":3,"team":"red","schedule":{"1/3":"O","1/4":"O","1/5":"AM"}},
         {"name":"みっつー","star":5,"team":"red","schedule":{"1/3":"x","1/4":"?","1/5":"?"}},
         {"name":"こーよ","star":4,"team":"blue","schedule":{"1/3":"?","1/4":"?","1/5":"?"}},
-        {"name":"ゆーま","star":2,"team":"blue","schedule":{"1/3":"▲","1/4":"O","1/5":"O"}},
+        {"name":"ゆーま","star":2,"team":"red","schedule":{"1/3":"▲","1/4":"O","1/5":"O"}},
         {"name":"ねっつん","star":3,"team":"red","schedule":{"1/3":"O","1/4":"x","1/5":"PM"}},
-        {"name":"じゅん","star":3,"team":"blue","schedule":{"1/3":"?","1/4":"?","1/5":"?"}}
+        {"name":"じゅん","star":3,"team":"blue","schedule":{"1/3":"?","1/4":"?","1/5":"?"}},
+        {"name":"いっせい","star":3,"team":"blue","schedule":{"1/3":"?","1/4":"O","1/5":"O"}}
     ]
 }
 
