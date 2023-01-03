@@ -2,14 +2,14 @@ let data = {
     players : [
         {"name":"たいこう","star":4,"team":"blue","schedule":{"1/3":"O","1/4":"O","1/5":"O"}},
         {"name":"たつみ","star":3,"team":"red","schedule":{"1/3":"x","1/4":"?","1/5":"AM"}},
-        {"name":"はるみち","star":1,"team":"none","schedule":{"1/3":"O","1/4":"O","1/5":"O"}},
-        {"name":"こうむら","star":2,"team":"none","schedule":{"1/3":"O","1/4":"O","1/5":"O"}},
-        {"name":"キム・ツヨシ","star":2,"team":"none","schedule":{"1/3":"?","1/4":"?","1/5":"?"}},
-        {"name":"ほり","star":0,"team":"none","schedule":{"1/3":"O","1/4":"O","1/5":"▲"}},
-        {"name":"サカナ","star":2,"team":"none","schedule":{"1/3":"?","1/4":"?","1/5":"?"}},
-        {"name":"おっかー","star":3,"team":"none","schedule":{"1/3":"O","1/4":"O","1/5":"AM"}},
-        {"name":"みっつー","star":5,"team":"none","schedule":{"1/3":"x","1/4":"?","1/5":"?"}},
-        {"name":"こーよ","star":4,"team":"none","schedule":{"1/3":"?","1/4":"?","1/5":"?"}},
+        {"name":"はるみち","star":1,"team":"blue","schedule":{"1/3":"O","1/4":"O","1/5":"O"}},
+        {"name":"こうむら","star":2,"team":"red","schedule":{"1/3":"O","1/4":"O","1/5":"O"}},
+        {"name":"キム・ツヨシ","star":2,"team":"red","schedule":{"1/3":"?","1/4":"?","1/5":"?"}},
+        {"name":"ほり","star":0,"team":"blue","schedule":{"1/3":"O","1/4":"O","1/5":"▲"}},
+        {"name":"サカナ","star":2,"team":"blue","schedule":{"1/3":"?","1/4":"?","1/5":"?"}},
+        {"name":"おっかー","star":3,"team":"red","schedule":{"1/3":"O","1/4":"O","1/5":"AM"}},
+        {"name":"みっつー","star":5,"team":"red","schedule":{"1/3":"x","1/4":"?","1/5":"?"}},
+        {"name":"こーよ","star":4,"team":"blue","schedule":{"1/3":"?","1/4":"?","1/5":"?"}},
         {"name":"ゆーま","star":2,"team":"none","schedule":{"1/3":"▲","1/4":"O","1/5":"O"}},
         {"name":"ねっつん","star":3,"team":"none","schedule":{"1/3":"O","1/4":"x","1/5":"PM"}},
         {"name":"じゅん","star":3,"team":"none","schedule":{"1/3":"?","1/4":"?","1/5":"?"}}
@@ -59,7 +59,7 @@ function renderSchedule(){
     let table = document.createElement("table");
     let target = document.getElementById("schedule");
     target.appendChild(table);
-    table.innerHTML = '<tr><td>予定</td><td>1/3</td><td>1/4</td><td>1/5</td></tr>';
+    table.innerHTML = '<tr><td>来れる日</td><td>1/3</td><td>1/4</td><td>1/5</td></tr>';
     for(let pl of data.players){
         table.innerHTML += '<tr><td>'+pl.name+'</td><td>'+pl.schedule["1/3"]+'</td><td>'+pl.schedule["1/4"]+'</td><td>'+pl.schedule["1/5"]+'</td></tr>';
     }
